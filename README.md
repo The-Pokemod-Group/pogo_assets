@@ -1,33 +1,30 @@
-# Pokemon GO Assets
+# Pokemon GO Assets (Pokemod)
 
-Repository of all mined assets, including sprites, sounds, and news items. This repo is organized based on category and is a combination of downloaded/remote assets and assets found inside the APK.
+This repository stores mined Pokemon GO assets, including images, sounds, and text data extracted from APK and remote updates.
 
-**NOTE:** Looking for something that's not in the repo? Check out our temporary scratch folder: [https://pokeminers.com/scratch](https://pokeminers.com/scratch). This is where assets will live (unorganized) until we have a chance to update the repo. Once added to the repo, they will be removed from the scratch folder.
+## Repository Structure
 
-## Folder Structure
+### `Candy Color Data/`
 
-### Images
+Contains JSON data used for in-game candy color definitions and mappings.
 
-All 2D images of all assets that we mine are located here. Assets are organized based on category, such as `Pokemon`, `Items`, `Backgrounds`, etc.
+### `Images/`
 
-### 3D Assets
+Contains 2D visual assets, including Pokemon art, UI elements, icons, event graphics, backgrounds, badges, and other interface/media images.
 
-All 3D models and their textures (if present) of all assets that we mine are located here. Assets are organized based on category, such as `Pokemon`, `Items`, `Clothing`, etc.
+### `Sounds/`
 
-### Sounds
+Contains audio assets, including Pokemon cries, move sounds, interface effects, encounter audio, raid-related sounds, and other gameplay/event audio.
 
-All sound effects and music that are mined are found here. They are organized by category such as `Pokemon Moves`, `Music`, `Menu Sounds`, etc.
+### `Texts/`
 
-### Texts
+Contains text assets extracted from APK and remote updates, including quests, feature strings, social/gameplay text, and other localized or structured text resources.
 
-Mined text assets which contain quests among other things will be found here. Inside there are two folders, one for `Latest APK` and one for `Latest Remote`. When Niantic pushes a text update, it's pushed to the Remote. Once a new APK is released, all remote pushes are merged into the APK and removed from the Remote; therefore, we maintain both.
+## Notes
 
-**Note:** Keep in mind it is expected that the Remote will have items removed from it after a new APK is released.
-
-### Candy Color Data
-
-The JSON structure that the game uses to generate the in-game candy colors.
+- Content is organized by theme and feature area.
+- Assets may be added, moved, or removed as new game updates are mined.
 
 ## Disclaimer
 
-This repo is for educational use only. All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
+This repository is for educational and archival purposes only. All included assets remain the property of their respective copyright owners (including The Pokemon Company and Niantic). Pokemod does not claim ownership of the original game assets.
